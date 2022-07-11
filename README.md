@@ -20,4 +20,4 @@
 ![image](https://user-images.githubusercontent.com/60900412/178370506-1cabbe0e-7bfe-4c6b-af31-058e0f07739d.png)
 
 Сторінка адміна
-![image](https://user-images.githubusercontent.com/60900412/178370548-5903401c-6134-4eb3-9180-05d2e2ed7fd2.png)
+![image](https://user-images.githubusercontent.com/60900412/178370773-3fc4d2d8-7158-4383-b893-87f443716108.png)
