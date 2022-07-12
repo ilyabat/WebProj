@@ -34,9 +34,7 @@
             </tr>
             </tbody>
         </table>
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 mb-md-0">
-            <a href="/addProduct" class="w-15 btn btn-lg btn-primary m-2"><h3>Добавити товар</h3></a>
-        </ul>
+
     </div>
         <h3 class="m-2">Список виробів</h3>
         <div>
@@ -51,15 +49,42 @@
                 </thead>
                 <tbody>
                 <tr th:each="product: ${productList}">
-                    <td th:text="${product.id}">User ID</td>
-                    <td th:text="${product.name}">E-mail</td>
-                    <td th:text="${product.description}">First Name</td>
-                    <td th:text="${product.price}">Last Name</td>
+                    <td th:text="${product.id}">Prod ID</td>
+                    <td th:text="${product.name}">Name</td>
+                    <td th:text="${product.description}">Description</td>
+                    <td th:text="${product.price}">Price</td>
                 </tr>
                 </tbody>
             </table>
-        <div th:replace="fragments/footer :: footer"></div>
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 mb-md-0">
+                <a href="/addProduct" class="w-15 btn btn-lg btn-primary m-2"><h3>Добавити товар</h3></a>
+            </ul>
         </div>
+        <h3 class="m-2">Список виробів</h3>
+        <div>
+            <table class="table table-striped table-bordered" >
+                <thead class="thead-dark">
+                <tr>
+                    <th>News ID</th>
+                    <th>Title</th>
+                    <th>Anons</th>
+                    <th>Full_text</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="news: ${newsList}">
+                    <td th:text="${news.id}">User ID</td>
+                    <td th:text="${news.title}">Title</td>
+                    <td th:text="${news.anons}">Anons</td>
+                    <td th:text="${news.full_text}">Full_text</td>
+                </tr>
+                </tbody>
+            </table>
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 mb-md-0">
+                <a href="/addNews" class="w-15 btn btn-lg btn-primary m-2"><h3>Добавити новину</h3></a>
+            </ul>
+        </div>
+        <div th:replace="fragments/footer :: footer"></div>
     </div>
 </main>
 </body>
