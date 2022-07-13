@@ -45,6 +45,8 @@
                     <th>Name</th>
                     <th>Description</th>
                     <th>Price</th>
+                    <th>Update</th>
+                    <th>Delete</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -53,6 +55,8 @@
                     <td th:text="${product.name}">Name</td>
                     <td th:text="${product.description}">Description</td>
                     <td th:text="${product.price}">Price</td>
+                    <td><a th:href="@{/edit/{id}(id=${product.id})}" class="btn btn-success text-center">Редагувати</a></td>
+                    <td><a th:href="@{/delete/{id}(id=${product.id})}" class="btn text-center">Видалити</a></td>
                 </tr>
                 </tbody>
             </table>

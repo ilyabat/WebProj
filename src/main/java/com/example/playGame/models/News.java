@@ -15,10 +15,11 @@ public class News {
     private String image;
 
 
-    public News(String title, String anons, String full_text) {
+    public News(String title, String anons, String full_text, String image) {
         this.title = title;
         this.anons = anons;
         this.full_text = full_text;
+        this.image = image;
     }
 
     public News() {

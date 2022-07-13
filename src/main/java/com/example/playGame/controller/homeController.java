@@ -26,11 +26,11 @@ public class homeController {
     }
     @GetMapping("/addNews")
     public String addNews(Model model){
-        return "addProduct";
+        return "addNews";
     }
     @PostMapping("/addNews")
-    public String addNews(@RequestParam String title, @RequestParam String anons, @RequestParam String full_text, Model model){
-        News news = new News(title,anons,full_text);
+    public String addNews(@RequestParam String title, @RequestParam String anons, @RequestParam String full_text, @RequestParam String image, Model model){
+        News news = new News(title,anons,full_text,image);
         newsRepository.save(news);
         return "redirect:/adminPage";
     }
