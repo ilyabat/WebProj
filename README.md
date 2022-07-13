@@ -20,4 +20,5 @@
 ![image](https://user-images.githubusercontent.com/60900412/178370506-1cabbe0e-7bfe-4c6b-af31-058e0f07739d.png)
 
 Сторінка адміна
-![image](https://user-images.githubusercontent.com/60900412/178370773-3fc4d2d8-7158-4383-b893-87f443716108.png)
+Доступні всі методи CRUD операцій 
+![image](https://user-images.githubusercontent.com/60900412/178756107-6ff71b5a-3540-424e-b322-8f2302b94fe7.png)
