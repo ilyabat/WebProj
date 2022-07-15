@@ -8,17 +8,16 @@
 ![image](https://user-images.githubusercontent.com/60900412/178370410-361c9f81-7120-4f28-9651-e6008a098454.png)
 
 Головна сторінка з новинами 
-![image](https://user-images.githubusercontent.com/60900412/178370439-2f7e31d5-b960-402d-bb44-64313249ae99.png)
+![image](https://user-images.githubusercontent.com/60900412/179323443-c892756e-e3c7-4016-b8e2-8dc0f6a51d38.png)
 
 Сторінка товарів 
-![image](https://user-images.githubusercontent.com/60900412/178370465-6625b7e6-d467-4dc4-80b5-441e98786337.png)
+![image](https://user-images.githubusercontent.com/60900412/179323385-d58ed4e6-8ee3-4f57-9201-32e95a429c5e.png)
 
 Кошик
-![image](https://user-images.githubusercontent.com/60900412/178370483-ce465503-037c-4925-9cd5-c823c5b64b1d.png)
+![image](https://user-images.githubusercontent.com/60900412/179323576-2b9f73f9-61e3-4f0b-9670-167c89d4e1c9.png)
 
 Профіль
-![image](https://user-images.githubusercontent.com/60900412/178370506-1cabbe0e-7bfe-4c6b-af31-058e0f07739d.png)
+![image](https://user-images.githubusercontent.com/60900412/179323563-8e487a84-443d-4da5-b6e9-fc58ae71ee81.png)
 
 Сторінка адміна
-Доступні всі методи CRUD операцій 
-![image](https://user-images.githubusercontent.com/60900412/178756107-6ff71b5a-3540-424e-b322-8f2302b94fe7.png)
+![image](https://user-images.githubusercontent.com/60900412/179323481-2998c27b-2105-4707-83a0-84bec65c2935.png)
