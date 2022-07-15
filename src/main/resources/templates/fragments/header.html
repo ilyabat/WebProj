@@ -16,13 +16,14 @@
             <li sec:authorize="hasAnyAuthority('USER','ADMIN')"><a href="/userPage" class="nav-link px-2 link-dark">Профіль</a></li>
             <li sec:authorize="hasAuthority('ADMIN')"><a href="/adminPage" class="nav-link px-2 link-dark">Сторінка адміна</a></li>
 
-            <li sec:authorize="hasAnyAuthority('USER','ADMIN')"><a href="/cart" class="nav-link px-2 link-dark text-right">Корзина</a></li>
+
         </ul>
         <ul class="nav col-12 col-lg-auto text-end" sec:authorize="!isAuthenticated()">
             <a th:href="@{/login}" method="post" class="btn btn-outline-primary me-2">Авторизація</a>
             <a th:href="@{/registration}" method="post" class="btn btn-primary">Реєстрація</a>
         </ul>
         <div class="nav col-12 col-lg-auto text-end" sec:authorize="isAuthenticated()">
+            <li sec:authorize="hasAnyAuthority('USER','ADMIN')"><a href="/cart" class="nav-link px-2 link-dark text-right"><img height="30" width="30" src="https://icon-library.com/images/cart-icon/cart-icon-2.jpg"></a></li>
             <b class="nav-link px-2 text-black">
             <span th:text="${#authentication.getPrincipal().getEmail()}"></span></b>
             <form th:action="@{/logout}" method="post">
