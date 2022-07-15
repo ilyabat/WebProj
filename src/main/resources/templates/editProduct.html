@@ -12,7 +12,7 @@
 <div class="container mt-5 mb-5">
   <h1>Редагування продукту</h1>
   <form method="post">
-    <div th:each="el: ${editProd}">
+    <div th:each="el: ${editProd}" >
     <input type="text" th:value="${el.name}" name="name" placeholder="Назва продукту" class="form-control"><br>
     <input type="text" th:value="${el.description}" name="description" placeholder="Опис продукту" class="form-control"><br>
     <input type="text" th:value="${el.price}" name="price" placeholder="Ціна продукту" class="form-control"><br>
