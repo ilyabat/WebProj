@@ -14,7 +14,7 @@
 ![image](https://user-images.githubusercontent.com/60900412/179323385-d58ed4e6-8ee3-4f57-9201-32e95a429c5e.png)
 
 Кошик
-![image](https://user-images.githubusercontent.com/60900412/179323576-2b9f73f9-61e3-4f0b-9670-167c89d4e1c9.png)
+![image](https://user-images.githubusercontent.com/60900412/181003764-253b0d1e-1b2a-4b26-8fdc-2994fa8cdf78.png)
 
 Профіль
 ![image](https://user-images.githubusercontent.com/60900412/179323563-8e487a84-443d-4da5-b6e9-fc58ae71ee81.png)
