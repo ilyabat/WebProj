@@ -4,6 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../static/cart.css" type="text/css" th:href="@{/cart.css}">
   <title>PlayGame</title>
 </head>
 
@@ -11,20 +12,33 @@
 <main>
   <div class="container">
     <div th:replace="fragments/header :: header"></div>
-        <div class="row-col-3 row-cols-sm-2 row-cols-md-3 g-3 mr-3">
-          <div class="card-body col shadow-sm border border-dark" th:width="400" th:each="products : ${products}">
-            <h3 th:text="${products.getKey().getName()}"></h3>
-            <h4 th:text="${products.getKey().getPrice()}"></h4>
-              <a th:href="@{/cart/remove/{id}(id=${products.getKey().getId()})}" class="col-mt-4">
+<div class="cart">
+        <div class="Cart-Container">
 
-                <button type="button" class="btn btn-primary mt-4" th:text="Вилучити"></button>
-              </a>
-              </div>
+          <div class="Header">
+            <h3 class="Heading">Кошик</h3>
+            <h5 class="Action"><a th:href="@{/cart/clear/}">Очистити кошик</a></h5>
           </div>
 
-    <a th:href="@{/cart/clear/}" class="col-mt-5">
-      <button type="button" class="btn btn-info mt-4">Очистити кошик</button>
-    </a>
+          <div class="Cart-Items" th:each="products : ${products}">
+
+            <div class="about">
+              <h1 class="title" th:text="${products.getKey().getName()}"></h1>
+              <h3 class="subtitle" th:text="${products.getKey().getDescription()}"></h3>
+            </div>
+
+            <div class="prices">
+              <div class="amount" th:text="${products.getKey().getPrice()}"><h4>Грн</h4></div>
+              <div class="remove">
+                <a th:href="@{/cart/remove/{id}(id=${products.getKey().getId()})}">Вилучити</a>
+              </div>
+            </div>
+          </div>
+          <div class="totalPrice">
+            <h3 th:text="${'Повна ціна: ' + totalPrice}"></h3>
+          </div>
+
+        </div>
 
   </div>
     <div th:replace="fragments/footer :: footer"></div>

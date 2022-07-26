@@ -23,6 +23,7 @@ public class cartController {
     @GetMapping("/cart")
     public String cart(Model model){
         model.addAttribute("products", shoppingCartService.productsInCart());
+        model.addAttribute("totalPrice", shoppingCartService.totalPrice());
         return "cart";
     }
     @GetMapping("/cart/add/{id}")
@@ -31,6 +32,8 @@ public class cartController {
         if (product != null){
             shoppingCartService.addProduct(product);
             model.addAttribute("products", shoppingCartService.productsInCart());
+            model.addAttribute("totalPrice", shoppingCartService.totalPrice());
+
         }
         return "cart";
     }
@@ -42,6 +45,7 @@ public class cartController {
         }
         return "cart";
     }
+
 
     @GetMapping("/cart/clear")
     public String clearProductsInCart(){

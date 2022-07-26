@@ -1,0 +1,91 @@
+body{
+    background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+}
+.cart{
+    margin: 0;
+    padding: 0;
+    min-height: 300px;
+    max-height: 10000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cart-Container{
+    min-height: 300px;
+    width: 70%;
+    height: 85%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #1687d933;
+}
+
+.Header{
+    margin: auto;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Heading{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2F3841;
+}
+.Action{
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Cart-Items{
+    margin: auto;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.image-box{
+    width: 15%;
+    text-align: center;
+}
+.about{
+
+}
+.title{
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 32px;
+    font-weight: 800;
+    color: #202020;
+}
+.subtitle{
+    line-height: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #909090;
+    padding-left: 20px;
+}
+.prices{
+    text-align: right;
+}
+.amount{
+    font-size: 26px;
+    font-weight: 800;
+    color: #202020;
+}
+.remove{
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #E44C4C;
+    cursor: pointer;
+}
+.totalPrice{
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
