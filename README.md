@@ -3,7 +3,7 @@
 
 Авторизація та реєстрація 
 
-![image](https://user-images.githubusercontent.com/60900412/178370379-c181025a-2900-48fe-8beb-9ec86e5bd580.png)
+![image](https://user-images.githubusercontent.com/60900412/181250095-f4353e85-8d47-4424-9415-44c460fc5b68.png)
 
 ![image](https://user-images.githubusercontent.com/60900412/181249239-a139ebbf-7fe4-4326-8b8c-4f42794f192b.png)
 
